@@ -1,0 +1,1 @@
+export const FETCH_IMAGE_DATA = "FETCH_IMAGE_DATA";
