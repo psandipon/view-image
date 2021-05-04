@@ -47,14 +47,14 @@
         >
           <v-row>
             <v-col xs="6" sm="6" md="6" lg="12" xl="12">
-              <image-component
+              <image-component-raw
                 :item="item"
                 :id="item.id"
                 :width="slider"
                 :height="slider"
                 :auto="auto"
               >
-              </image-component>
+              </image-component-raw>
             </v-col>
             <v-col xs="6" sm="6" md="6" lg="12" xl="12">
               <span class="title"> {{ item.author }} </span>
@@ -72,11 +72,11 @@
 
 <script>
 import { mapGetters, mapActions } from "vuex";
-import imageComponent from "~/components/imageComponent.vue";
+import imageComponentRaw from "~/components/imageComponentRaw.vue";
 import cOptionField from "~/components/ui/optionField";
 export default {
   components: {
-    imageComponent,
+    imageComponentRaw,
     cOptionField
   },
   data() {
