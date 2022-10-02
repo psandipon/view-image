@@ -7,7 +7,7 @@
       :src="getUrl(item)"
       aspect-ratio="1"
     />
-    <!-- responsive with custom ratio : test-->
+    <!-- responsive with custom ratio : test : tested again -->
     <v-img
       v-else
       :lazy-src="require('@/assets/squareLogo.png')"
